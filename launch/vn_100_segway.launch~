@@ -1,4 +1,7 @@
 <launch>
+
+    <include file="$(find imu_vn_100)/launch/zed_tf.launch" />
+
     <arg name="output" default="screen"/>
     <arg name="imu" default="imu"/>
 
